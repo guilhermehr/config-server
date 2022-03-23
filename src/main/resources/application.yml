@@ -1,5 +1,7 @@
 server:
   port: 8888
   
-spring:  profiles:    active:    - native
-  cloud:    config:      server:        native:          search-locations:          - d:/projetos/alura/microservices-spring-cloud/microservices-repo
+spring:
+  cloud:    config:      server:
+          default-label: main          git:            uri: https://github.com/guilhermehr/microservices-repo            search-paths:            - fornecedor
+            
