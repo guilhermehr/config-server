@@ -4,4 +4,5 @@ server:
 spring:
   cloud:    config:      server:
           default-label: main          git:            uri: https://github.com/guilhermehr/microservices-repo            search-paths:            - fornecedor
+            - loja
             
